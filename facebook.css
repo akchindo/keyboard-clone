@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  position: absolute;
+  background-color: rgb(73, 73, 168);
+  width: 100%;
+  color: aliceblue;
+}
+.logo{
+  position: absolute;
+  padding: 20px 15px;
+  
+}
+
+.form1 {
+  position: relative;
+  float: right;
+  padding: 10px 70px 20px 0px;
+}
+
+#pw {
+  color: aliceblue;
+}
+
+#down {
+  position: absolute;
+  margin-top: 85px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(235, 239, 243);
+ 
+}
+
+.right {
+  float: right;
+  /* margin-top: 50px; */
+  /* right: -50px; */
+  width: 50%;
+  position: relative;
+  padding-top: 15px;
+}
+
+.left {
+  text-align: center;
+  float: left;
+  width: 50%;
+  position: relative;
+  padding-top: 20px;
+}
+#down input{
+  width: 80%;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 7px 0;
+  border: 1px solid #ddd;
+}
+#down #date{
+  width: 20%;
+}
+#down  #female{
+  width: 5%;
+  padding: 5px;
+  margin: 0 0;
+}
+#down  #male{
+  width: 5%;
+  padding: 0;
+  margin: 0 0;
+}
+
+#down #submit {
+  width: 30%;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+img {
+  width: 90%;
+  height: 70%;
+}
+
+ul  {
+  float: left;
+  margin: 0px 5px;
+}
+
+
+ul li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.login{
+  margin-top: 25px;
+  background-color: rgb(73, 73, 168);
+  color: aliceblue;
+  margin-left: 15px;
+  padding: 2.5px;
+}
+ul li a{
+  text-decoration: none;
+}
